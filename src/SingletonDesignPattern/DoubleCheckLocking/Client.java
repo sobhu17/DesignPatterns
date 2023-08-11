@@ -1,4 +1,4 @@
-package DoubleCheckLocking;
+package SingletonDesignPattern.DoubleCheckLocking;
 
 public class Client {
     public static void main(String[] args) {

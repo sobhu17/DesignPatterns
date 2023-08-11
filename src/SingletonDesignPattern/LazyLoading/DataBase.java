@@ -1,4 +1,4 @@
-package LazyLoading;
+package SingletonDesignPattern.LazyLoading;
 
 public class DataBase {
     private static DataBase instance = null;

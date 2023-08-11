@@ -1,4 +1,4 @@
-package DoubleCheckLocking;
+package SingletonDesignPattern.DoubleCheckLocking;
 
 public class DataBase {
     private static DataBase instance = null;

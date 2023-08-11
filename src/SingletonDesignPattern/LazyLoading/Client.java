@@ -1,7 +1,4 @@
-package LazyLoading;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+package SingletonDesignPattern.LazyLoading;
 
 public class Client {
     public static void main(String[] args) {
@@ -24,6 +21,13 @@ public class Client {
         There is an issue with this way of creating singleton class as it will not work for multithreaded environment
 
         To avoid this multithreading issue we have two more methods of defining a class singleton
+
+
+        When to use singleton design pattern
+            1. when classes have shared resources behind the scenes
+            2. When the class is stateless that is there is no attributes in a class
+            3. Objects are immutable
+            4. Objects are expensive to create.
      */
 
 

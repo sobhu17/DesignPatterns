@@ -1,4 +1,4 @@
-package EagerLoading;
+package SingletonDesignPattern.EagerLoading;
 
 public class DataBase {
     private static DataBase instance = new DataBase();
