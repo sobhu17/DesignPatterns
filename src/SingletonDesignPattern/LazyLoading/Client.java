@@ -9,7 +9,7 @@ public class Client {
         System.out.println(db2);
 
         /*
-        Here this is a singleton class we can onl create one and only one object of this class
+        Here this is a singleton class we can only create one and only one object of this class
         For this we have defined its constructor as private as private constructor can't be called outside this class
         but not we can't even create a single instance of this class
 
