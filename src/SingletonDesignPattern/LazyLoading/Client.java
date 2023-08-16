@@ -11,7 +11,7 @@ public class Client {
         /*
         Here this is a singleton class we can only create one and only one object of this class
         For this we have defined its constructor as private as private constructor can't be called outside this class
-        but not we can't even create a single instance of this class
+        but now we can't even create a single instance of this class
 
         For this we create a public method that will create an instance for us and return it
         But to access this method we still need a object of this class
