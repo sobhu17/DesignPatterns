@@ -1,6 +1,6 @@
 package PrototypeAndRegistryDesignPattern;
 
-public class IntellegentStudent extends Student{
+public class IntelligentStudent extends Student{
     private int iq;
 
     public int getIq() {
@@ -11,17 +11,16 @@ public class IntellegentStudent extends Student{
         this.iq = iq;
     }
 
-    public IntellegentStudent(){
+    public IntelligentStudent(){
 
     }
 
-    public IntellegentStudent(IntellegentStudent o){
+    public  IntelligentStudent(IntelligentStudent o){
         super(o);
         this.iq = o.iq;
     }
 
-
-    public Student Clone(){
-        return new IntellegentStudent(this);
+    public IntelligentStudent Clone(){
+        return new IntelligentStudent(this);
     }
 }

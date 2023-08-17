@@ -2,9 +2,10 @@ package PrototypeAndRegistryDesignPattern;
 
 public class Student {
     private String name;
+    private String batch;
     private int age;
-    private double averagePSP;
     private String email;
+    private double averagePSP;
 
     public String getName() {
         return name;
@@ -12,38 +13,6 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getAveragePSP() {
-        return averagePSP;
-    }
-
-    public void setAveragePSP(double averagePSP) {
-        this.averagePSP = averagePSP;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public int getGradYear() {
-        return gradYear;
-    }
-
-    public void setGradYear(int gradYear) {
-        this.gradYear = gradYear;
     }
 
     public String getBatch() {
@@ -54,23 +23,45 @@ public class Student {
         this.batch = batch;
     }
 
-    private int gradYear;
+    public int getAge() {
+        return age;
+    }
 
-    private String batch;
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public double getAveragePSP() {
+        return averagePSP;
+    }
+
+    public void setAveragePSP(double averagePSP) {
+        this.averagePSP = averagePSP;
+    }
 
     public Student(){
 
     }
 
     public Student(Student o){
+        this.name = o.name;
+        this.batch = o.batch;
         this.age = o.age;
         this.email = o.email;
         this.averagePSP = o.averagePSP;
-        this.name = o.name;
-        this.gradYear = o.gradYear;
     }
+
 
     public Student Clone(){
         return new Student(this);
     }
+
 }
