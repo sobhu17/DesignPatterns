@@ -4,7 +4,7 @@ public class Client {
     public static void main(String[] args) {
 
         /*
-                This is a more intuitive way of creating n object.
+                This is a more intuitive way of creating an object.
                 Builder Design pattern is basically used when we have large number of attributes in a class
                 And we have to do validations on attributes before the object creation.
 

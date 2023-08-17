@@ -101,6 +101,10 @@ public class Student {
         public Student Build(){
             // Do validation task here
 
+            if(gradYear >= 2022){
+                throw new IllegalArgumentException("GradYear should be less than 2022");
+            }
+
             return new Student(this);
         }
     }
