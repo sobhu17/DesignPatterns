@@ -31,5 +31,36 @@ public class Client {
 
         System.out.println("Debug!!!");
 
+
+        /*
+            Prototype design pattern is used to make copies of an object
+            If we create copy by assigning values one by one then it is hard to access the
+            private attributes on a class
+
+            Suppose we have child class object in a parent class variable that will also creates problem
+            in intelligent student we have attr 'iq' which we cant access using Student varibale name
+
+            If we use multiple if/else in client then it will lead to violet SRP/OCP
+            Copy constructor has same issue as we don't know which object is there in Student variable
+            Similarly a Cone method alone in every class will also not work
+            But we have to keep in mind to put Cone method in each and every class
+
+            We need a solution such that each class will provide a method to create its copy
+
+            So for this we use combination of Cone() method and Copy Constructor together
+
+            In cone method we just call the copy constructor of that class and copy constructor
+            of parent will get called itself due to constructor chaining.
+
+            It is possible that we need to get the same type of object again and again that has
+            same attribute values.
+            So for this what we can do is create a registry and put key and values there
+            String and object respectively
+
+            from this registry we can get an object template and just change the attribute values
+            that are different
+
+         */
+
     }
 }
