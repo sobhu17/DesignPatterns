@@ -1,4 +1,4 @@
-package StrategyDesignPatter;
+package StrategyDesignPattern;
 
 public class BusPathCalculatorStrategy implements PathCalculatorStrategy {
     @Override

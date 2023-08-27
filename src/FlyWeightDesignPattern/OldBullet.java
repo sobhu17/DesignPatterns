@@ -1,4 +1,4 @@
-package FlyWeightDesignPatter;
+package FlyWeightDesignPattern;
 
 public class OldBullet {
     private double radius;

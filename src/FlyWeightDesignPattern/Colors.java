@@ -1,4 +1,4 @@
-package FlyWeightDesignPatter;
+package FlyWeightDesignPattern;
 
 public enum Colors {
     BROWN,

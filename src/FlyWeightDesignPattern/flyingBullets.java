@@ -1,4 +1,4 @@
-package FlyWeightDesignPatter;
+package FlyWeightDesignPattern;
 
 public class flyingBullets {
     private double direction;

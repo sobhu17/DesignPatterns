@@ -1,4 +1,4 @@
-package StrategyDesignPatter;
+package StrategyDesignPattern;
 
 public interface PathCalculatorStrategy {
 
