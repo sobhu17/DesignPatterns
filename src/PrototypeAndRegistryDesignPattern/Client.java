@@ -47,9 +47,9 @@ public class Client {
 
             We need a solution such that each class will provide a method to create its copy
 
-            So for this we use combination of Cone() method and Copy Constructor together
+            So for this we use combination of Clone() method and Copy Constructor together
 
-            In cone method we just call the copy constructor of that class and copy constructor
+            In clone method we just call the copy constructor of that class and copy constructor
             of parent will get called itself due to constructor chaining.
 
             It is possible that we need to get the same type of object again and again that has
