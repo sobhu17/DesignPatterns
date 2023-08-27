@@ -42,7 +42,7 @@ public class Client {
 
             If we use multiple if/else in client then it will lead to violet SRP/OCP
             Copy constructor has same issue as we don't know which object is there in Student variable
-            Similarly a Cone method alone in every class will also not work
+            Similarly a Clone method alone in every class will also not work
             But we have to keep in mind to put Cone method in each and every class
 
             We need a solution such that each class will provide a method to create its copy
